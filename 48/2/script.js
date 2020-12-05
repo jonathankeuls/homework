@@ -6,8 +6,10 @@ let n = Math.round(Math.random() * 10)
 while (n !== 6) {
     console.log(n)
     n = Math.round(Math.random() * 10)
+    if (n === 6) {
+        console.log(n)
+    }
 }
-
 
 // Exempel på output:
 // 4
